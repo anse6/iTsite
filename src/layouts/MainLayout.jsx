@@ -58,18 +58,22 @@ const MainLayout = () => {
               <div
                 className={`absolute inset-0 bg-primary opacity-0 group-hover:opacity-100 transition-opacity duration-500`}
               />
-              <span className="relative z-10">IT SERVICES</span>
+              <span className="relative z-10 notranslate" translate="no">
+                IT
+              </span>
             </div>
             <div className="leading-tight">
               <h1
-                className={`font-bold m-0 text-xl tracking-tight transition-colors duration-300 ${
+                translate="no"
+                className={`font-bold m-0 text-xl tracking-tight notranslate transition-colors duration-300 ${
                   scrolled ? "text-gray-900" : "text-white"
                 }`}
               >
-                IT SERVICES & Automation
+                IT & Automation
               </h1>
               <p
-                className={`text-xs font-medium tracking-widest uppercase transition-colors duration-300 ${
+                translate="no"
+                className={`text-xs font-medium tracking-widest uppercase notranslate transition-colors duration-300 ${
                   scrolled ? "text-primary" : "text-white/80"
                 }`}
               >
