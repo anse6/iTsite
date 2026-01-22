@@ -24,12 +24,12 @@ const MaintenancePage = () => {
         
         {/* Titre */}
         <h1 className="text-3xl md:text-4xl font-bold text-gray-800 text-center mb-4">
-          Site en Maintenance
+          Site en indisponible
         </h1>
         
         {/* Message */}
         <p className="text-gray-600 text-center mb-8 text-lg leading-relaxed">
-          Ce site est actuellement indisponible pour maintenance.
+          Ce site est actuellement indisponible pour les raisons liées l'hébergement.
           Veuillez contacter l'administrateur pour plus d'informations concernant son hébergement.
         </p>
         
