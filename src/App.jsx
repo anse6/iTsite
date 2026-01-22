@@ -44,11 +44,7 @@ const MaintenancePage = () => {
             <div className="bg-blue-100 rounded-full p-3">
               <Mail className="w-6 h-6 text-blue-600" />
             </div>
-            <div className="flex items-center gap-4 p-4 bg-white rounded-lg border border-gray-200 hover:border-blue-300 transition-colors">
-            <div className="bg-blue-100 rounded-full p-3">
-              <Mail className="w-6 h-6 text-blue-600" />
-            </div>
-            <div className="flex-1 min-w-0">
+            <div className="flex-1">
               <p className="text-sm text-gray-500 font-medium">Email</p>
               <a 
                 href="mailto:ansevernel@gmail.com"
@@ -57,7 +53,6 @@ const MaintenancePage = () => {
                 ansevernel@gmail.com
               </a>
             </div>
-          </div>
           </div>
           
           {/* Téléphone */}
